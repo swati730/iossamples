@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D523924719F61CE000272FBE /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D523924519F61CE000272FBE /* FeedbackViewController.m */; };
+		D523924819F61CE000272FBE /* FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D523924619F61CE000272FBE /* FeedbackViewController.xib */; };
+		D53B6AB719F4B0E9006D8D88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53B6AB619F4B0E9006D8D88 /* Foundation.framework */; };
+		D53B6AB919F4B0E9006D8D88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53B6AB819F4B0E9006D8D88 /* CoreGraphics.framework */; };
+		D53B6ABB19F4B0E9006D8D88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53B6ABA19F4B0E9006D8D88 /* UIKit.framework */; };
+		D53B6AC119F4B0E9006D8D88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D53B6ABF19F4B0E9006D8D88 /* InfoPlist.strings */; };
+		D53B6AC319F4B0E9006D8D88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D53B6AC219F4B0E9006D8D88 /* main.m */; };
+		D53B6AC719F4B0E9006D8D88 /* BookMovieAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D53B6AC619F4B0E9006D8D88 /* BookMovieAppDelegate.m */; };
+		D53B6ACA19F4B0E9006D8D88 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53B6AC819F4B0E9006D8D88 /* Main_iPhone.storyboard */; };
+		D53B6ACD19F4B0E9006D8D88 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53B6ACB19F4B0E9006D8D88 /* Main_iPad.storyboard */; };
+		D53B6AD019F4B0E9006D8D88 /* BookMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D53B6ACF19F4B0E9006D8D88 /* BookMovieViewController.m */; };
+		D53B6AD219F4B0E9006D8D88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53B6AD119F4B0E9006D8D88 /* Images.xcassets */; };
+		D53B6AD919F4B0E9006D8D88 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53B6AD819F4B0E9006D8D88 /* XCTest.framework */; };
+		D53B6ADA19F4B0E9006D8D88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53B6AB619F4B0E9006D8D88 /* Foundation.framework */; };
+		D53B6ADB19F4B0E9006D8D88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53B6ABA19F4B0E9006D8D88 /* UIKit.framework */; };
+		D53B6AE319F4B0E9006D8D88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D53B6AE119F4B0E9006D8D88 /* InfoPlist.strings */; };
+		D53B6AE519F4B0E9006D8D88 /* BookMyShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D53B6AE419F4B0E9006D8D88 /* BookMyShowTests.m */; };
+		D53B6AF119F4B5BD006D8D88 /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D53B6AF019F4B5BD006D8D88 /* images-2.jpeg */; };
+		D53B6AF319F4B5C9006D8D88 /* x1412667249_annabelle1.jpg,qh=215,aw=150,aquality=70.pagespeed.ic.lzCxayJ8kZ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D53B6AF219F4B5C9006D8D88 /* x1412667249_annabelle1.jpg,qh=215,aw=150,aquality=70.pagespeed.ic.lzCxayJ8kZ.jpg */; };
+		D53B6AF719F4BD13006D8D88 /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D53B6AF519F4BD13006D8D88 /* FormViewController.m */; };
+		D53B6AF819F4BD13006D8D88 /* FormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D53B6AF619F4BD13006D8D88 /* FormViewController.xib */; };
+		D53B6AFA19F4BFDA006D8D88 /* image_thumb[8].png in Resources */ = {isa = PBXBuildFile; fileRef = D53B6AF919F4BFDA006D8D88 /* image_thumb[8].png */; };
+		D53B6AFE19F4C8A5006D8D88 /* PickTicketMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D53B6AFC19F4C8A5006D8D88 /* PickTicketMovieViewController.m */; };
+		D53B6AFF19F4C8A5006D8D88 /* PickTicketMovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D53B6AFD19F4C8A5006D8D88 /* PickTicketMovieViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D53B6ADC19F4B0E9006D8D88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D53B6AAB19F4B0E8006D8D88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D53B6AB219F4B0E8006D8D88;
+			remoteInfo = BookMyShow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D523924419F61CE000272FBE /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
+		D523924519F61CE000272FBE /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
+		D523924619F61CE000272FBE /* FeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedbackViewController.xib; sourceTree = "<group>"; };
+		D53B6AB319F4B0E9006D8D88 /* BookMyShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMyShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53B6AB619F4B0E9006D8D88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D53B6AB819F4B0E9006D8D88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D53B6ABA19F4B0E9006D8D88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D53B6ABE19F4B0E9006D8D88 /* BookMyShow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookMyShow-Info.plist"; sourceTree = "<group>"; };
+		D53B6AC019F4B0E9006D8D88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D53B6AC219F4B0E9006D8D88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D53B6AC419F4B0E9006D8D88 /* BookMyShow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookMyShow-Prefix.pch"; sourceTree = "<group>"; };
+		D53B6AC519F4B0E9006D8D88 /* BookMovieAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookMovieAppDelegate.h; sourceTree = "<group>"; };
+		D53B6AC619F4B0E9006D8D88 /* BookMovieAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookMovieAppDelegate.m; sourceTree = "<group>"; };
+		D53B6AC919F4B0E9006D8D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D53B6ACC19F4B0E9006D8D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D53B6ACE19F4B0E9006D8D88 /* BookMovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookMovieViewController.h; sourceTree = "<group>"; };
+		D53B6ACF19F4B0E9006D8D88 /* BookMovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookMovieViewController.m; sourceTree = "<group>"; };
+		D53B6AD119F4B0E9006D8D88 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D53B6AD719F4B0E9006D8D88 /* BookMyShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookMyShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53B6AD819F4B0E9006D8D88 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D53B6AE019F4B0E9006D8D88 /* BookMyShowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookMyShowTests-Info.plist"; sourceTree = "<group>"; };
+		D53B6AE219F4B0E9006D8D88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D53B6AE419F4B0E9006D8D88 /* BookMyShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookMyShowTests.m; sourceTree = "<group>"; };
+		D53B6AF019F4B5BD006D8D88 /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpeg"; sourceTree = "<group>"; };
+		D53B6AF219F4B5C9006D8D88 /* x1412667249_annabelle1.jpg,qh=215,aw=150,aquality=70.pagespeed.ic.lzCxayJ8kZ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "x1412667249_annabelle1.jpg,qh=215,aw=150,aquality=70.pagespeed.ic.lzCxayJ8kZ.jpg"; sourceTree = "<group>"; };
+		D53B6AF419F4BD13006D8D88 /* FormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormViewController.h; sourceTree = "<group>"; };
+		D53B6AF519F4BD13006D8D88 /* FormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormViewController.m; sourceTree = "<group>"; };
+		D53B6AF619F4BD13006D8D88 /* FormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormViewController.xib; sourceTree = "<group>"; };
+		D53B6AF919F4BFDA006D8D88 /* image_thumb[8].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_thumb[8].png"; sourceTree = "<group>"; };
+		D53B6AFB19F4C8A5006D8D88 /* PickTicketMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickTicketMovieViewController.h; sourceTree = "<group>"; };
+		D53B6AFC19F4C8A5006D8D88 /* PickTicketMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickTicketMovieViewController.m; sourceTree = "<group>"; };
+		D53B6AFD19F4C8A5006D8D88 /* PickTicketMovieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickTicketMovieViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D53B6AB019F4B0E8006D8D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53B6AB919F4B0E9006D8D88 /* CoreGraphics.framework in Frameworks */,
+				D53B6ABB19F4B0E9006D8D88 /* UIKit.framework in Frameworks */,
+				D53B6AB719F4B0E9006D8D88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53B6AD419F4B0E9006D8D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53B6AD919F4B0E9006D8D88 /* XCTest.framework in Frameworks */,
+				D53B6ADB19F4B0E9006D8D88 /* UIKit.framework in Frameworks */,
+				D53B6ADA19F4B0E9006D8D88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D53B6AAA19F4B0E8006D8D88 = {
+			isa = PBXGroup;
+			children = (
+				D53B6ABC19F4B0E9006D8D88 /* BookMyShow */,
+				D53B6ADE19F4B0E9006D8D88 /* BookMyShowTests */,
+				D53B6AB519F4B0E9006D8D88 /* Frameworks */,
+				D53B6AB419F4B0E9006D8D88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D53B6AB419F4B0E9006D8D88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D53B6AB319F4B0E9006D8D88 /* BookMyShow.app */,
+				D53B6AD719F4B0E9006D8D88 /* BookMyShowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D53B6AB519F4B0E9006D8D88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D53B6AB619F4B0E9006D8D88 /* Foundation.framework */,
+				D53B6AB819F4B0E9006D8D88 /* CoreGraphics.framework */,
+				D53B6ABA19F4B0E9006D8D88 /* UIKit.framework */,
+				D53B6AD819F4B0E9006D8D88 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D53B6ABC19F4B0E9006D8D88 /* BookMyShow */ = {
+			isa = PBXGroup;
+			children = (
+				D53B6AC519F4B0E9006D8D88 /* BookMovieAppDelegate.h */,
+				D53B6AC619F4B0E9006D8D88 /* BookMovieAppDelegate.m */,
+				D53B6AC819F4B0E9006D8D88 /* Main_iPhone.storyboard */,
+				D53B6ACB19F4B0E9006D8D88 /* Main_iPad.storyboard */,
+				D53B6ACE19F4B0E9006D8D88 /* BookMovieViewController.h */,
+				D53B6ACF19F4B0E9006D8D88 /* BookMovieViewController.m */,
+				D53B6AD119F4B0E9006D8D88 /* Images.xcassets */,
+				D53B6ABD19F4B0E9006D8D88 /* Supporting Files */,
+				D53B6AF419F4BD13006D8D88 /* FormViewController.h */,
+				D53B6AF519F4BD13006D8D88 /* FormViewController.m */,
+				D53B6AF619F4BD13006D8D88 /* FormViewController.xib */,
+				D53B6AFB19F4C8A5006D8D88 /* PickTicketMovieViewController.h */,
+				D53B6AFC19F4C8A5006D8D88 /* PickTicketMovieViewController.m */,
+				D53B6AFD19F4C8A5006D8D88 /* PickTicketMovieViewController.xib */,
+				D523924419F61CE000272FBE /* FeedbackViewController.h */,
+				D523924519F61CE000272FBE /* FeedbackViewController.m */,
+				D523924619F61CE000272FBE /* FeedbackViewController.xib */,
+			);
+			path = BookMyShow;
+			sourceTree = "<group>";
+		};
+		D53B6ABD19F4B0E9006D8D88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D53B6AF919F4BFDA006D8D88 /* image_thumb[8].png */,
+				D53B6AF219F4B5C9006D8D88 /* x1412667249_annabelle1.jpg,qh=215,aw=150,aquality=70.pagespeed.ic.lzCxayJ8kZ.jpg */,
+				D53B6AF019F4B5BD006D8D88 /* images-2.jpeg */,
+				D53B6ABE19F4B0E9006D8D88 /* BookMyShow-Info.plist */,
+				D53B6ABF19F4B0E9006D8D88 /* InfoPlist.strings */,
+				D53B6AC219F4B0E9006D8D88 /* main.m */,
+				D53B6AC419F4B0E9006D8D88 /* BookMyShow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D53B6ADE19F4B0E9006D8D88 /* BookMyShowTests */ = {
+			isa = PBXGroup;
+			children = (
+				D53B6AE419F4B0E9006D8D88 /* BookMyShowTests.m */,
+				D53B6ADF19F4B0E9006D8D88 /* Supporting Files */,
+			);
+			path = BookMyShowTests;
+			sourceTree = "<group>";
+		};
+		D53B6ADF19F4B0E9006D8D88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D53B6AE019F4B0E9006D8D88 /* BookMyShowTests-Info.plist */,
+				D53B6AE119F4B0E9006D8D88 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D53B6AB219F4B0E8006D8D88 /* BookMyShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53B6AE819F4B0E9006D8D88 /* Build configuration list for PBXNativeTarget "BookMyShow" */;
+			buildPhases = (
+				D53B6AAF19F4B0E8006D8D88 /* Sources */,
+				D53B6AB019F4B0E8006D8D88 /* Frameworks */,
+				D53B6AB119F4B0E8006D8D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookMyShow;
+			productName = BookMyShow;
+			productReference = D53B6AB319F4B0E9006D8D88 /* BookMyShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D53B6AD619F4B0E9006D8D88 /* BookMyShowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53B6AEB19F4B0E9006D8D88 /* Build configuration list for PBXNativeTarget "BookMyShowTests" */;
+			buildPhases = (
+				D53B6AD319F4B0E9006D8D88 /* Sources */,
+				D53B6AD419F4B0E9006D8D88 /* Frameworks */,
+				D53B6AD519F4B0E9006D8D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D53B6ADD19F4B0E9006D8D88 /* PBXTargetDependency */,
+			);
+			name = BookMyShowTests;
+			productName = BookMyShowTests;
+			productReference = D53B6AD719F4B0E9006D8D88 /* BookMyShowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D53B6AAB19F4B0E8006D8D88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BookMovie;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MEDITAB;
+				TargetAttributes = {
+					D53B6AD619F4B0E9006D8D88 = {
+						TestTargetID = D53B6AB219F4B0E8006D8D88;
+					};
+				};
+			};
+			buildConfigurationList = D53B6AAE19F4B0E8006D8D88 /* Build configuration list for PBXProject "BookMyShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D53B6AAA19F4B0E8006D8D88;
+			productRefGroup = D53B6AB419F4B0E9006D8D88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D53B6AB219F4B0E8006D8D88 /* BookMyShow */,
+				D53B6AD619F4B0E9006D8D88 /* BookMyShowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D53B6AB119F4B0E8006D8D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53B6ACD19F4B0E9006D8D88 /* Main_iPad.storyboard in Resources */,
+				D53B6AF319F4B5C9006D8D88 /* x1412667249_annabelle1.jpg,qh=215,aw=150,aquality=70.pagespeed.ic.lzCxayJ8kZ.jpg in Resources */,
+				D53B6AF819F4BD13006D8D88 /* FormViewController.xib in Resources */,
+				D53B6AFF19F4C8A5006D8D88 /* PickTicketMovieViewController.xib in Resources */,
+				D53B6AD219F4B0E9006D8D88 /* Images.xcassets in Resources */,
+				D53B6ACA19F4B0E9006D8D88 /* Main_iPhone.storyboard in Resources */,
+				D53B6AF119F4B5BD006D8D88 /* images-2.jpeg in Resources */,
+				D53B6AC119F4B0E9006D8D88 /* InfoPlist.strings in Resources */,
+				D53B6AFA19F4BFDA006D8D88 /* image_thumb[8].png in Resources */,
+				D523924819F61CE000272FBE /* FeedbackViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53B6AD519F4B0E9006D8D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53B6AE319F4B0E9006D8D88 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D53B6AAF19F4B0E8006D8D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53B6AC719F4B0E9006D8D88 /* BookMovieAppDelegate.m in Sources */,
+				D53B6AFE19F4C8A5006D8D88 /* PickTicketMovieViewController.m in Sources */,
+				D53B6AD019F4B0E9006D8D88 /* BookMovieViewController.m in Sources */,
+				D53B6AF719F4BD13006D8D88 /* FormViewController.m in Sources */,
+				D53B6AC319F4B0E9006D8D88 /* main.m in Sources */,
+				D523924719F61CE000272FBE /* FeedbackViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53B6AD319F4B0E9006D8D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53B6AE519F4B0E9006D8D88 /* BookMyShowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D53B6ADD19F4B0E9006D8D88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D53B6AB219F4B0E8006D8D88 /* BookMyShow */;
+			targetProxy = D53B6ADC19F4B0E9006D8D88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D53B6ABF19F4B0E9006D8D88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D53B6AC019F4B0E9006D8D88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D53B6AC819F4B0E9006D8D88 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D53B6AC919F4B0E9006D8D88 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D53B6ACB19F4B0E9006D8D88 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D53B6ACC19F4B0E9006D8D88 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D53B6AE119F4B0E9006D8D88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D53B6AE219F4B0E9006D8D88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D53B6AE619F4B0E9006D8D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D53B6AE719F4B0E9006D8D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D53B6AE919F4B0E9006D8D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookMyShow/BookMyShow-Prefix.pch";
+				INFOPLIST_FILE = "BookMyShow/BookMyShow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D53B6AEA19F4B0E9006D8D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookMyShow/BookMyShow-Prefix.pch";
+				INFOPLIST_FILE = "BookMyShow/BookMyShow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D53B6AEC19F4B0E9006D8D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BookMyShow.app/BookMyShow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookMyShow/BookMyShow-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BookMyShowTests/BookMyShowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D53B6AED19F4B0E9006D8D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BookMyShow.app/BookMyShow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookMyShow/BookMyShow-Prefix.pch";
+				INFOPLIST_FILE = "BookMyShowTests/BookMyShowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D53B6AAE19F4B0E8006D8D88 /* Build configuration list for PBXProject "BookMyShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53B6AE619F4B0E9006D8D88 /* Debug */,
+				D53B6AE719F4B0E9006D8D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53B6AE819F4B0E9006D8D88 /* Build configuration list for PBXNativeTarget "BookMyShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53B6AE919F4B0E9006D8D88 /* Debug */,
+				D53B6AEA19F4B0E9006D8D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53B6AEB19F4B0E9006D8D88 /* Build configuration list for PBXNativeTarget "BookMyShowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53B6AEC19F4B0E9006D8D88 /* Debug */,
+				D53B6AED19F4B0E9006D8D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D53B6AAB19F4B0E8006D8D88 /* Project object */;
+}

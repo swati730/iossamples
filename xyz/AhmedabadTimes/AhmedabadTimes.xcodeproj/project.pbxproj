@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5CB493819EF5ED700DA5E5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CB493719EF5ED700DA5E5C /* Foundation.framework */; };
+		D5CB493A19EF5ED700DA5E5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CB493919EF5ED700DA5E5C /* CoreGraphics.framework */; };
+		D5CB493C19EF5ED700DA5E5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CB493B19EF5ED700DA5E5C /* UIKit.framework */; };
+		D5CB494219EF5ED700DA5E5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5CB494019EF5ED700DA5E5C /* InfoPlist.strings */; };
+		D5CB494419EF5ED700DA5E5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CB494319EF5ED700DA5E5C /* main.m */; };
+		D5CB494819EF5ED700DA5E5C /* PlacesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CB494719EF5ED700DA5E5C /* PlacesAppDelegate.m */; };
+		D5CB494B19EF5ED700DA5E5C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CB494919EF5ED700DA5E5C /* Main_iPhone.storyboard */; };
+		D5CB494E19EF5ED700DA5E5C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CB494C19EF5ED700DA5E5C /* Main_iPad.storyboard */; };
+		D5CB495119EF5ED700DA5E5C /* PlacesFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CB495019EF5ED700DA5E5C /* PlacesFirstViewController.m */; };
+		D5CB495419EF5ED700DA5E5C /* PlacesSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CB495319EF5ED700DA5E5C /* PlacesSecondViewController.m */; };
+		D5CB495619EF5ED700DA5E5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5CB495519EF5ED700DA5E5C /* Images.xcassets */; };
+		D5CB495D19EF5ED700DA5E5C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CB495C19EF5ED700DA5E5C /* XCTest.framework */; };
+		D5CB495E19EF5ED700DA5E5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CB493719EF5ED700DA5E5C /* Foundation.framework */; };
+		D5CB495F19EF5ED700DA5E5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CB493B19EF5ED700DA5E5C /* UIKit.framework */; };
+		D5CB496719EF5ED700DA5E5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5CB496519EF5ED700DA5E5C /* InfoPlist.strings */; };
+		D5CB496919EF5ED700DA5E5C /* AhmedabadTimesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CB496819EF5ED700DA5E5C /* AhmedabadTimesTests.m */; };
+		D5CB497519EF5F8E00DA5E5C /* ShoppingMallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CB497319EF5F8E00DA5E5C /* ShoppingMallViewController.m */; };
+		D5CB497619EF5F8E00DA5E5C /* ShoppingMallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5CB497419EF5F8E00DA5E5C /* ShoppingMallViewController.xib */; };
+		D5CB497A19EF5FAE00DA5E5C /* ParksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CB497819EF5FAE00DA5E5C /* ParksViewController.m */; };
+		D5CB497B19EF5FAE00DA5E5C /* ParksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5CB497919EF5FAE00DA5E5C /* ParksViewController.xib */; };
+		D5CB497F19EF5FC300DA5E5C /* MoviesThViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CB497D19EF5FC300DA5E5C /* MoviesThViewController.m */; };
+		D5CB498019EF5FC300DA5E5C /* MoviesThViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5CB497E19EF5FC300DA5E5C /* MoviesThViewController.xib */; };
+		D5CB498419EF627600DA5E5C /* Places2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CB498219EF627600DA5E5C /* Places2ViewController.m */; };
+		D5CB498519EF627600DA5E5C /* Places2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5CB498319EF627600DA5E5C /* Places2ViewController.xib */; };
+		D5CB498919EF672F00DA5E5C /* ClubsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CB498719EF672F00DA5E5C /* ClubsViewController.m */; };
+		D5CB498A19EF672F00DA5E5C /* ClubsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5CB498819EF672F00DA5E5C /* ClubsViewController.xib */; };
+		D5CB498E19EF674B00DA5E5C /* GroupMeetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CB498C19EF674B00DA5E5C /* GroupMeetupViewController.m */; };
+		D5CB498F19EF674B00DA5E5C /* GroupMeetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5CB498D19EF674B00DA5E5C /* GroupMeetupViewController.xib */; };
+		D5CB499319EF753100DA5E5C /* res2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CB499119EF753100DA5E5C /* res2ViewController.m */; };
+		D5CB499419EF753100DA5E5C /* res2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5CB499219EF753100DA5E5C /* res2ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5CB496019EF5ED700DA5E5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5CB492C19EF5ED700DA5E5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5CB493319EF5ED700DA5E5C;
+			remoteInfo = AhmedabadTimes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5CB493419EF5ED700DA5E5C /* AhmedabadTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AhmedabadTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CB493719EF5ED700DA5E5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5CB493919EF5ED700DA5E5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D5CB493B19EF5ED700DA5E5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5CB493F19EF5ED700DA5E5C /* AhmedabadTimes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AhmedabadTimes-Info.plist"; sourceTree = "<group>"; };
+		D5CB494119EF5ED700DA5E5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5CB494319EF5ED700DA5E5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5CB494519EF5ED700DA5E5C /* AhmedabadTimes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AhmedabadTimes-Prefix.pch"; sourceTree = "<group>"; };
+		D5CB494619EF5ED700DA5E5C /* PlacesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacesAppDelegate.h; sourceTree = "<group>"; };
+		D5CB494719EF5ED700DA5E5C /* PlacesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesAppDelegate.m; sourceTree = "<group>"; };
+		D5CB494A19EF5ED700DA5E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D5CB494D19EF5ED700DA5E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D5CB494F19EF5ED700DA5E5C /* PlacesFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacesFirstViewController.h; sourceTree = "<group>"; };
+		D5CB495019EF5ED700DA5E5C /* PlacesFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesFirstViewController.m; sourceTree = "<group>"; };
+		D5CB495219EF5ED700DA5E5C /* PlacesSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacesSecondViewController.h; sourceTree = "<group>"; };
+		D5CB495319EF5ED700DA5E5C /* PlacesSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesSecondViewController.m; sourceTree = "<group>"; };
+		D5CB495519EF5ED700DA5E5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5CB495B19EF5ED700DA5E5C /* AhmedabadTimesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AhmedabadTimesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CB495C19EF5ED700DA5E5C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D5CB496419EF5ED700DA5E5C /* AhmedabadTimesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AhmedabadTimesTests-Info.plist"; sourceTree = "<group>"; };
+		D5CB496619EF5ED700DA5E5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5CB496819EF5ED700DA5E5C /* AhmedabadTimesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AhmedabadTimesTests.m; sourceTree = "<group>"; };
+		D5CB497219EF5F8E00DA5E5C /* ShoppingMallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingMallViewController.h; sourceTree = "<group>"; };
+		D5CB497319EF5F8E00DA5E5C /* ShoppingMallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingMallViewController.m; sourceTree = "<group>"; };
+		D5CB497419EF5F8E00DA5E5C /* ShoppingMallViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingMallViewController.xib; sourceTree = "<group>"; };
+		D5CB497719EF5FAE00DA5E5C /* ParksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParksViewController.h; sourceTree = "<group>"; };
+		D5CB497819EF5FAE00DA5E5C /* ParksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParksViewController.m; sourceTree = "<group>"; };
+		D5CB497919EF5FAE00DA5E5C /* ParksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParksViewController.xib; sourceTree = "<group>"; };
+		D5CB497C19EF5FC300DA5E5C /* MoviesThViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesThViewController.h; sourceTree = "<group>"; };
+		D5CB497D19EF5FC300DA5E5C /* MoviesThViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesThViewController.m; sourceTree = "<group>"; };
+		D5CB497E19EF5FC300DA5E5C /* MoviesThViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoviesThViewController.xib; sourceTree = "<group>"; };
+		D5CB498119EF627600DA5E5C /* Places2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Places2ViewController.h; sourceTree = "<group>"; };
+		D5CB498219EF627600DA5E5C /* Places2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Places2ViewController.m; sourceTree = "<group>"; };
+		D5CB498319EF627600DA5E5C /* Places2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Places2ViewController.xib; sourceTree = "<group>"; };
+		D5CB498619EF672F00DA5E5C /* ClubsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubsViewController.h; sourceTree = "<group>"; };
+		D5CB498719EF672F00DA5E5C /* ClubsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubsViewController.m; sourceTree = "<group>"; };
+		D5CB498819EF672F00DA5E5C /* ClubsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClubsViewController.xib; sourceTree = "<group>"; };
+		D5CB498B19EF674B00DA5E5C /* GroupMeetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupMeetupViewController.h; sourceTree = "<group>"; };
+		D5CB498C19EF674B00DA5E5C /* GroupMeetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupMeetupViewController.m; sourceTree = "<group>"; };
+		D5CB498D19EF674B00DA5E5C /* GroupMeetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupMeetupViewController.xib; sourceTree = "<group>"; };
+		D5CB499019EF753000DA5E5C /* res2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = res2ViewController.h; sourceTree = "<group>"; };
+		D5CB499119EF753100DA5E5C /* res2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = res2ViewController.m; sourceTree = "<group>"; };
+		D5CB499219EF753100DA5E5C /* res2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = res2ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5CB493119EF5ED700DA5E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CB493A19EF5ED700DA5E5C /* CoreGraphics.framework in Frameworks */,
+				D5CB493C19EF5ED700DA5E5C /* UIKit.framework in Frameworks */,
+				D5CB493819EF5ED700DA5E5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5CB495819EF5ED700DA5E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CB495D19EF5ED700DA5E5C /* XCTest.framework in Frameworks */,
+				D5CB495F19EF5ED700DA5E5C /* UIKit.framework in Frameworks */,
+				D5CB495E19EF5ED700DA5E5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5CB492B19EF5ED700DA5E5C = {
+			isa = PBXGroup;
+			children = (
+				D5CB493D19EF5ED700DA5E5C /* AhmedabadTimes */,
+				D5CB496219EF5ED700DA5E5C /* AhmedabadTimesTests */,
+				D5CB493619EF5ED700DA5E5C /* Frameworks */,
+				D5CB493519EF5ED700DA5E5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5CB493519EF5ED700DA5E5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5CB493419EF5ED700DA5E5C /* AhmedabadTimes.app */,
+				D5CB495B19EF5ED700DA5E5C /* AhmedabadTimesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5CB493619EF5ED700DA5E5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5CB493719EF5ED700DA5E5C /* Foundation.framework */,
+				D5CB493919EF5ED700DA5E5C /* CoreGraphics.framework */,
+				D5CB493B19EF5ED700DA5E5C /* UIKit.framework */,
+				D5CB495C19EF5ED700DA5E5C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5CB493D19EF5ED700DA5E5C /* AhmedabadTimes */ = {
+			isa = PBXGroup;
+			children = (
+				D5CB494619EF5ED700DA5E5C /* PlacesAppDelegate.h */,
+				D5CB494719EF5ED700DA5E5C /* PlacesAppDelegate.m */,
+				D5CB494919EF5ED700DA5E5C /* Main_iPhone.storyboard */,
+				D5CB494C19EF5ED700DA5E5C /* Main_iPad.storyboard */,
+				D5CB494F19EF5ED700DA5E5C /* PlacesFirstViewController.h */,
+				D5CB495019EF5ED700DA5E5C /* PlacesFirstViewController.m */,
+				D5CB498119EF627600DA5E5C /* Places2ViewController.h */,
+				D5CB498219EF627600DA5E5C /* Places2ViewController.m */,
+				D5CB498319EF627600DA5E5C /* Places2ViewController.xib */,
+				D5CB495219EF5ED700DA5E5C /* PlacesSecondViewController.h */,
+				D5CB495319EF5ED700DA5E5C /* PlacesSecondViewController.m */,
+				D5CB499019EF753000DA5E5C /* res2ViewController.h */,
+				D5CB499119EF753100DA5E5C /* res2ViewController.m */,
+				D5CB499219EF753100DA5E5C /* res2ViewController.xib */,
+				D5CB495519EF5ED700DA5E5C /* Images.xcassets */,
+				D5CB493E19EF5ED700DA5E5C /* Supporting Files */,
+				D5CB497219EF5F8E00DA5E5C /* ShoppingMallViewController.h */,
+				D5CB497319EF5F8E00DA5E5C /* ShoppingMallViewController.m */,
+				D5CB497419EF5F8E00DA5E5C /* ShoppingMallViewController.xib */,
+				D5CB497719EF5FAE00DA5E5C /* ParksViewController.h */,
+				D5CB497819EF5FAE00DA5E5C /* ParksViewController.m */,
+				D5CB497919EF5FAE00DA5E5C /* ParksViewController.xib */,
+				D5CB497C19EF5FC300DA5E5C /* MoviesThViewController.h */,
+				D5CB497D19EF5FC300DA5E5C /* MoviesThViewController.m */,
+				D5CB497E19EF5FC300DA5E5C /* MoviesThViewController.xib */,
+				D5CB498619EF672F00DA5E5C /* ClubsViewController.h */,
+				D5CB498719EF672F00DA5E5C /* ClubsViewController.m */,
+				D5CB498819EF672F00DA5E5C /* ClubsViewController.xib */,
+				D5CB498B19EF674B00DA5E5C /* GroupMeetupViewController.h */,
+				D5CB498C19EF674B00DA5E5C /* GroupMeetupViewController.m */,
+				D5CB498D19EF674B00DA5E5C /* GroupMeetupViewController.xib */,
+			);
+			path = AhmedabadTimes;
+			sourceTree = "<group>";
+		};
+		D5CB493E19EF5ED700DA5E5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5CB493F19EF5ED700DA5E5C /* AhmedabadTimes-Info.plist */,
+				D5CB494019EF5ED700DA5E5C /* InfoPlist.strings */,
+				D5CB494319EF5ED700DA5E5C /* main.m */,
+				D5CB494519EF5ED700DA5E5C /* AhmedabadTimes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5CB496219EF5ED700DA5E5C /* AhmedabadTimesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5CB496819EF5ED700DA5E5C /* AhmedabadTimesTests.m */,
+				D5CB496319EF5ED700DA5E5C /* Supporting Files */,
+			);
+			path = AhmedabadTimesTests;
+			sourceTree = "<group>";
+		};
+		D5CB496319EF5ED700DA5E5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5CB496419EF5ED700DA5E5C /* AhmedabadTimesTests-Info.plist */,
+				D5CB496519EF5ED700DA5E5C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5CB493319EF5ED700DA5E5C /* AhmedabadTimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5CB496C19EF5ED700DA5E5C /* Build configuration list for PBXNativeTarget "AhmedabadTimes" */;
+			buildPhases = (
+				D5CB493019EF5ED700DA5E5C /* Sources */,
+				D5CB493119EF5ED700DA5E5C /* Frameworks */,
+				D5CB493219EF5ED700DA5E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AhmedabadTimes;
+			productName = AhmedabadTimes;
+			productReference = D5CB493419EF5ED700DA5E5C /* AhmedabadTimes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5CB495A19EF5ED700DA5E5C /* AhmedabadTimesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5CB496F19EF5ED700DA5E5C /* Build configuration list for PBXNativeTarget "AhmedabadTimesTests" */;
+			buildPhases = (
+				D5CB495719EF5ED700DA5E5C /* Sources */,
+				D5CB495819EF5ED700DA5E5C /* Frameworks */,
+				D5CB495919EF5ED700DA5E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5CB496119EF5ED700DA5E5C /* PBXTargetDependency */,
+			);
+			name = AhmedabadTimesTests;
+			productName = AhmedabadTimesTests;
+			productReference = D5CB495B19EF5ED700DA5E5C /* AhmedabadTimesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5CB492C19EF5ED700DA5E5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Places;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MEDITAB;
+				TargetAttributes = {
+					D5CB495A19EF5ED700DA5E5C = {
+						TestTargetID = D5CB493319EF5ED700DA5E5C;
+					};
+				};
+			};
+			buildConfigurationList = D5CB492F19EF5ED700DA5E5C /* Build configuration list for PBXProject "AhmedabadTimes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5CB492B19EF5ED700DA5E5C;
+			productRefGroup = D5CB493519EF5ED700DA5E5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5CB493319EF5ED700DA5E5C /* AhmedabadTimes */,
+				D5CB495A19EF5ED700DA5E5C /* AhmedabadTimesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5CB493219EF5ED700DA5E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CB498F19EF674B00DA5E5C /* GroupMeetupViewController.xib in Resources */,
+				D5CB497B19EF5FAE00DA5E5C /* ParksViewController.xib in Resources */,
+				D5CB498019EF5FC300DA5E5C /* MoviesThViewController.xib in Resources */,
+				D5CB497619EF5F8E00DA5E5C /* ShoppingMallViewController.xib in Resources */,
+				D5CB498A19EF672F00DA5E5C /* ClubsViewController.xib in Resources */,
+				D5CB498519EF627600DA5E5C /* Places2ViewController.xib in Resources */,
+				D5CB494E19EF5ED700DA5E5C /* Main_iPad.storyboard in Resources */,
+				D5CB495619EF5ED700DA5E5C /* Images.xcassets in Resources */,
+				D5CB494B19EF5ED700DA5E5C /* Main_iPhone.storyboard in Resources */,
+				D5CB494219EF5ED700DA5E5C /* InfoPlist.strings in Resources */,
+				D5CB499419EF753100DA5E5C /* res2ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5CB495919EF5ED700DA5E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CB496719EF5ED700DA5E5C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5CB493019EF5ED700DA5E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CB494819EF5ED700DA5E5C /* PlacesAppDelegate.m in Sources */,
+				D5CB497F19EF5FC300DA5E5C /* MoviesThViewController.m in Sources */,
+				D5CB498E19EF674B00DA5E5C /* GroupMeetupViewController.m in Sources */,
+				D5CB494419EF5ED700DA5E5C /* main.m in Sources */,
+				D5CB498919EF672F00DA5E5C /* ClubsViewController.m in Sources */,
+				D5CB498419EF627600DA5E5C /* Places2ViewController.m in Sources */,
+				D5CB495419EF5ED700DA5E5C /* PlacesSecondViewController.m in Sources */,
+				D5CB497519EF5F8E00DA5E5C /* ShoppingMallViewController.m in Sources */,
+				D5CB497A19EF5FAE00DA5E5C /* ParksViewController.m in Sources */,
+				D5CB495119EF5ED700DA5E5C /* PlacesFirstViewController.m in Sources */,
+				D5CB499319EF753100DA5E5C /* res2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5CB495719EF5ED700DA5E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CB496919EF5ED700DA5E5C /* AhmedabadTimesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5CB496119EF5ED700DA5E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5CB493319EF5ED700DA5E5C /* AhmedabadTimes */;
+			targetProxy = D5CB496019EF5ED700DA5E5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5CB494019EF5ED700DA5E5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5CB494119EF5ED700DA5E5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D5CB494919EF5ED700DA5E5C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5CB494A19EF5ED700DA5E5C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D5CB494C19EF5ED700DA5E5C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5CB494D19EF5ED700DA5E5C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D5CB496519EF5ED700DA5E5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5CB496619EF5ED700DA5E5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5CB496A19EF5ED700DA5E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5CB496B19EF5ED700DA5E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5CB496D19EF5ED700DA5E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AhmedabadTimes/AhmedabadTimes-Prefix.pch";
+				INFOPLIST_FILE = "AhmedabadTimes/AhmedabadTimes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D5CB496E19EF5ED700DA5E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AhmedabadTimes/AhmedabadTimes-Prefix.pch";
+				INFOPLIST_FILE = "AhmedabadTimes/AhmedabadTimes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D5CB497019EF5ED700DA5E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AhmedabadTimes.app/AhmedabadTimes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AhmedabadTimes/AhmedabadTimes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AhmedabadTimesTests/AhmedabadTimesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D5CB497119EF5ED700DA5E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AhmedabadTimes.app/AhmedabadTimes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AhmedabadTimes/AhmedabadTimes-Prefix.pch";
+				INFOPLIST_FILE = "AhmedabadTimesTests/AhmedabadTimesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5CB492F19EF5ED700DA5E5C /* Build configuration list for PBXProject "AhmedabadTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5CB496A19EF5ED700DA5E5C /* Debug */,
+				D5CB496B19EF5ED700DA5E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5CB496C19EF5ED700DA5E5C /* Build configuration list for PBXNativeTarget "AhmedabadTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5CB496D19EF5ED700DA5E5C /* Debug */,
+				D5CB496E19EF5ED700DA5E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5CB496F19EF5ED700DA5E5C /* Build configuration list for PBXNativeTarget "AhmedabadTimesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5CB497019EF5ED700DA5E5C /* Debug */,
+				D5CB497119EF5ED700DA5E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5CB492C19EF5ED700DA5E5C /* Project object */;
+}
